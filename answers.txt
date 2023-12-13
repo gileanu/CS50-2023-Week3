@@ -1,0 +1,30 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Has the fastest time in the best case (sorted50000.txt).
+
+sort2 uses: Merge Sort
+
+How do you know?: Fastest overall, most efficient in all tests.
+
+sort3 uses: Selection
+
+How do you know?: most consistent Θ(n2).
+
+
+Sort1 on random5000.txt = 0.89 s / random50000.txt = 5.69 s
+Sort1 on sorted5000.txt = 0.48 s / sorted50000.txt = 0.474 s.
+Sort1 on reversed5000.txt = 0.85s / reversed50000.txt = 5.0 s
+
+// bubble sort ? fastest time in the best case
+
+Sort2 on random5000.txt = 0.32 s / random50000.txt = 0.51 s
+Sort2 on sorted5000.txt = 0.53 s / sorted50000.txt = 0.56 s
+Sort2 on reversed5000.txt = 0.32 s / reversed50000.txt = 0.445 s
+
+ // merge sort  ? fastest overall
+
+Sort3 on random5000.txt = 0.64 s / random50000.txt =  2.35 s
+Sort3 on sorted5000.txt = 0.63 s / sorted50000.txt =  2.44 s
+Sort3 on reversed5000.txt = 0.69 s / reversed50000.txt =  2. 71s
+
+// selection sort ? most consistent of Θ(n2)
